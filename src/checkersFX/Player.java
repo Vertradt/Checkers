@@ -8,6 +8,7 @@ public enum Player {
     PLAYER2(Color.BLUE);
 
     private Color color;
+//    private int firstRow;
 
     Player(Color color) {
         this.color = color;

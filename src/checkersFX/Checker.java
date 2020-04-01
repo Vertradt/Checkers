@@ -24,4 +24,13 @@ public class Checker {
         return coordY;
     }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Checker{");
+        sb.append("X:").append(coordX);
+        sb.append("Y:").append(coordY);
+        sb.append(", player=").append(player);
+        sb.append('}');
+        return sb.toString();
+    }
 }

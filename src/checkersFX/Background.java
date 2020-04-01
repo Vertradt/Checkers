@@ -11,6 +11,11 @@ public class Background extends Pane {
     public static final Color WHITE = Color.RED;
     public static final int ROWS = 8;
     public static final int COLUMNS = 8;
+    private Rectangle rectangle;
+
+    public Rectangle getRectangle() {
+        return rectangle;
+    }
 
     public Background() {
 
@@ -40,10 +45,16 @@ public class Background extends Pane {
     }
 
     void addNewField(int col, int row, Color color) {
-        Rectangle rectangle = new Rectangle(col * SIZE, row * SIZE, SIZE, SIZE);
+        rectangle = new Rectangle(col * SIZE, row * SIZE, SIZE, SIZE);
         rectangle.setFill(color);
+//        StateManager stateManager = new StateManager();
+//        stateManager.showCoordinates(rectangle,);
         getChildren().add(rectangle);
+
     }
+
+
+
 
 
 }
