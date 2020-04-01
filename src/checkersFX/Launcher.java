@@ -1,5 +1,7 @@
 package checkersFX;
 
+import checkersFX.engine.Game;
+import checkersFX.model.Background;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;

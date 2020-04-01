@@ -1,4 +1,4 @@
-package checkersFX;
+package checkersFX.model;
 
 import javafx.scene.shape.Circle;
 
@@ -10,7 +10,7 @@ public class CheckerView extends Circle {
         this.checker = checker;
     }
 
-    void render() {
+    public void render() {
         setRadius(RADIUS);
         setFill(checker.getPlayer().getColor());
         setCenterX(checker.getCoordX() * Background.SIZE + (0.5 * Background.SIZE));

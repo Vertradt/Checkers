@@ -1,4 +1,4 @@
-package checkersFX;
+package checkersFX.model;
 
 
 import javafx.scene.paint.Color;

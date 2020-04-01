@@ -1,4 +1,4 @@
-package checkersFX;
+package checkersFX.model;
 
 import java.util.ArrayList;
 import java.util.List;

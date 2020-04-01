@@ -1,4 +1,4 @@
-package checkersFX;
+package checkersFX.model;
 
 public class Checker {
     private int coordX;

@@ -1,5 +1,7 @@
-package checkersFX;
+package checkersFX.engine;
 
+import checkersFX.model.*;
+import checkersFX.state.StateManager;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 

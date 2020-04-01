@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aebdeb7-4c5c-4375-b331-47d5c0aef549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/checkersFX/state/CheckerSelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkersFX/state/MovementState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkersFX/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkersFX/state/StateType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/Background.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/Checker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/CheckerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/CheckerView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Warcabownica/cwiczenie/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkersFX/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/Background.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkersFX/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkersFX/CheckerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/CheckerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkersFX/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkersFX/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/model/Background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/model/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/CheckerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/model/CheckerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/CheckerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/model/CheckerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/engine/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkersFX/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkersFX/model/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/Launcher.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/engine/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,36 +37,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/state/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/state/MovementState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding>
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/StateManager.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/state/CheckerSelectionState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/Background.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/state/StateManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+            <state relative-caret-position="244">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/state/StateType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/model/Background.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
@@ -78,31 +118,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/CheckerFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/model/CheckerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/Checker.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/model/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/checkersFX/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/checkersFX/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -112,8 +149,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -126,6 +163,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,6 +191,12 @@
         <option value="$PROJECT_DIR$/src/checkersFX/Background.java" />
         <option value="$PROJECT_DIR$/src/checkersFX/Checker.java" />
         <option value="$PROJECT_DIR$/src/checkersFX/StateManager.java" />
+        <option value="$PROJECT_DIR$/src/checkersFX/model/CheckerView.java" />
+        <option value="$PROJECT_DIR$/src/checkersFX/state/State.java" />
+        <option value="$PROJECT_DIR$/src/checkersFX/state/MovementState.java" />
+        <option value="$PROJECT_DIR$/src/checkersFX/state/StateType.java" />
+        <option value="$PROJECT_DIR$/src/checkersFX/state/StateManager.java" />
+        <option value="$PROJECT_DIR$/src/checkersFX/state/CheckerSelectionState.java" />
       </list>
     </option>
   </component>
@@ -182,6 +230,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="checkersFX" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Warcabownica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Warcabownica" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="checkersFX" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -190,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585602400169" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585756082111" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -233,13 +288,21 @@
       <option name="presentableId" value="Default" />
       <updated>1583868293633</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add input system.">
+      <created>1585753372669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585753372670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46971935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2367647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -249,7 +312,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37756714" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37756714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,6 +331,10 @@
       <window_info anchor="right" x="0" y="0" width="294" height="544" id="Documentation" order="7" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add input system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add input system." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Checkboard.java" />
@@ -317,31 +384,7 @@
     <entry file="file://$PROJECT_DIR$/src/checkersFX/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/CheckerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/CheckerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -355,20 +398,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/model/CheckerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/Background.java">
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/model/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/model/CheckerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/model/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />
@@ -377,21 +441,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/Checker.java">
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/engine/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkersFX/StateManager.java">
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/state/StateType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/state/MovementState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/state/StateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkersFX/state/CheckerSelectionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
