@@ -24,7 +24,10 @@ public class Launcher extends Application {
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.show();
+
+
     }
+
 }
 
 

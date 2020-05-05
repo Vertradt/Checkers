@@ -23,13 +23,14 @@ public class CheckerSelectionState extends State {
             System.out.println("Nie ten gracz.");
             return;
         }
+        stateManager.setActualChecker(checker);
         System.out.println("To jest checker " + checker);
         stateManager.changeState(StateType.MOVEMENT);
     }
 
     @Override
     public void setUp() {
-        System.out.println("Setup on CheckerSelection");
+        System.out.println("Aktualny gracz: " + stateManager.getPlayer());
 
     }
 }
